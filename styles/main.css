@@ -1,0 +1,191 @@
+
+body { 
+	
+	margin: 0;
+	/* overflow-y: hidden; */
+	
+	
+	}
+@font-face {
+	font-family: AUTOMOBI;
+	src: url(../fonts/AUTOMOBI.TTF);
+		}
+@font-face {
+	font-family: days_regular;
+	src: url(../fonts/days_regular.otf);
+			}
+@font-face {
+	font-family: HouschkaPro-Bold;
+	src: url(../fonts/HouschkaPro-Bold.otf);
+			}		
+@font-face {
+	font-family: HouschkaPro-Medium;
+	src: url(../fonts/HouschkaPro-Medium.otf);
+			}	
+@font-face {
+	font-family: Royalacid;
+	src: url(../fonts/Royalacid.ttf);
+			}		
+	
+
+.sky {
+	border-bottom: 4px solid #ddecfa;
+	background-color: #b9d6ef;
+	background-image: url(../img/clouds.png);
+	background-repeat: no-repeat;
+	height: 520px;
+	background: rgba(185, 214, 239);
+	
+	
+	
+}
+.textdiv {
+	/* border:9px solid black; */
+	height: 300px;
+	width: 540px;
+	margin: 6em 15em 0.0em 26em;
+	background: rgba(185, 214, 239, 0.0);
+	text-align:center;
+	position: absolute;
+	
+}
+h1 {
+	font-size: 72px; 
+    text-shadow: 3px 3px 1px #9ab2c6;
+	color: #fefefe;
+	font-family: HouschkaPro-Bold;
+	margin-bottom: -6px;
+	letter-spacing: 1px;
+	}
+p {
+	font-size: 14px; 
+    text-shadow: none;
+	color: #4d88ae;
+	font-family: HouschkaPro-Medium;
+	margin-bottom: 20px;
+	}
+	
+button {
+	width: 86px;
+	height: 37px;
+	border-radius: 2px;
+	background-image: linear-gradient(0deg, #f7a225 20%, #facd46 100%);
+	border: 1px solid #f7a225;
+	overflow: visible;
+	line-height: 25px;
+	font-family: HouschkaPro-Bold;
+	color: #ffffff;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 1px #9ab2c6;
+	box-shadow: 0px 1px 1px rgba(29,26,22,0.2);
+		
+		}
+		
+input {
+	width: 240px;
+	height: 32px;
+	border-radius: 4px;
+	box-shadow: 0px 1px 0px #ffffff;
+	background-image: linear-gradient(0deg, #efefef 0%, #eaeaea 100%);
+	overflow: visible;
+	line-height: 32px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #808080;
+	box-sizing: content-box;
+	
+	
+		}
+
+.sea {
+	border-top:9px solid rgba(50,125,173);
+	background-color: #266b97;
+	background-image: url(../img/icebergsea.png);
+	background-repeat: no-repeat;
+	background-position: bottom right, center center, top left;
+	height: 360px;
+	background: rgba(38, 107, 151)
+}
+.crono1 {
+	font-size: 24px;
+	line-height: 24px;
+	color: #f3f3f3;
+	font-family: HouschkaPro-Bold;
+	margin: 52px 1px 1px 598px;
+    position: absolute;
+	
+}
+.crono2 {
+	font-size: 24px;
+	line-height: 24px;
+	color: #f3f3f3;
+	font-family: HouschkaPro-Bold;
+	margin: 52px 1px 1px 698px;
+    position: absolute;
+	
+}.crono3 {
+	font-size: 24px;
+	line-height: 24px;
+	color: #f3f3f3;
+	font-family: HouschkaPro-Bold;
+	margin: 52px 1px 1px 798px;
+    position: absolute;
+	
+}
+.days {
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	background-color: #b9d6ef;
+	font-size: 24px;
+	line-height: 70px;
+	color: #266b97;
+	font-family: HouschkaPro-Medium;
+	font-weight: 500;
+	text-align:center;
+}
+.hours {
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	background-color: #b9d6ef;
+	font-size: 24px;
+	line-height: 70px;
+	color: #266b97;
+	font-family: HouschkaPro-Medium;
+	font-weight: 500;
+	text-align:center;
+}
+.mins {
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	background-color: #b9d6ef;
+	font-size: 24px;
+	line-height: 70px;
+	color: #266b97;
+	font-family: HouschkaPro-Medium;
+	font-weight: 500;
+	text-align:center;
+}
+
+.clouds {
+	margin: -1px 55% 0% 15%;
+    position: absolute;
+	
+}
+.iceberg {
+	margin: -203px 0% 0% 21%;
+    position: absolute;
+	/* border:4px solid #ddecfa; */
+}
+.boat {
+	margin: -30em 0em 0em 10em;
+    position: absolute;
+	
+	
+}
+
+
+
