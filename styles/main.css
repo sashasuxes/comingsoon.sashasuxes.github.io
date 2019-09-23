@@ -33,7 +33,7 @@ body {
 	background-color: #b9d6ef;
 	background-image: url(../img/clouds.png);
 	background-repeat: no-repeat;
-	height: 520px;
+	height: 463px;
 	background: rgba(185, 214, 239);
 	
 	
@@ -42,11 +42,12 @@ body {
 .textdiv {
 	/* border:9px solid black; */
 	height: 300px;
-	width: 540px;
-	margin: 6em 15em 0.0em 26em;
+	width: 600px;
+	margin: 46px 0px 0px 444px;
 	background: rgba(185, 214, 239, 0.0);
 	text-align:center;
 	position: absolute;
+	z-index: 1;
 	
 }
 h1 {
@@ -54,21 +55,33 @@ h1 {
     text-shadow: 3px 3px 1px #9ab2c6;
 	color: #fefefe;
 	font-family: HouschkaPro-Bold;
-	margin-bottom: -6px;
-	letter-spacing: 1px;
+	font-weight: 900;
+	margin-bottom: -8px;
+	letter-spacing: 6px;
+	transform: scaleY(1.1);
+	
 	}
 p {
-	font-size: 14px; 
+	font-size: 15px; 
     text-shadow: none;
 	color: #4d88ae;
 	font-family: HouschkaPro-Medium;
-	margin-bottom: 20px;
+	font-stretch: ultra-expanded;
+	margin-top: 10px;
+	margin-left: -86px;
+	font-weight: 500;
+	}
+	
+form {
+	margin-top: 17px;
+	margin-left: -120px;
+	
 	}
 	
 button {
-	width: 86px;
-	height: 37px;
-	border-radius: 2px;
+	width: 88px;
+	height: 36px;
+	border-radius: 4px;
 	background-image: linear-gradient(0deg, #f7a225 20%, #facd46 100%);
 	border: 1px solid #f7a225;
 	overflow: visible;
@@ -84,16 +97,17 @@ button {
 		
 input {
 	width: 240px;
-	height: 32px;
+	height: 33px;
 	border-radius: 4px;
 	box-shadow: 0px 1px 0px #ffffff;
 	background-image: linear-gradient(0deg, #efefef 0%, #eaeaea 100%);
 	overflow: visible;
-	line-height: 32px;
+	line-height: 30px;
 	font-family: Arial;
 	font-size: 12px;
 	color: #808080;
 	box-sizing: content-box;
+	margin-left: 10px;
 	
 	
 		}
@@ -109,46 +123,52 @@ input {
 }
 .crono1 {
 	font-size: 24px;
-	line-height: 24px;
+	line-height: 1.6;
 	color: #f3f3f3;
 	font-family: HouschkaPro-Bold;
-	margin: 52px 1px 1px 598px;
+	margin: 53px 1px 1px 545px;
     position: absolute;
+	text-align: center;
 	
 }
 .crono2 {
 	font-size: 24px;
-	line-height: 24px;
+	line-height: 1.6;
 	color: #f3f3f3;
 	font-family: HouschkaPro-Bold;
-	margin: 52px 1px 1px 698px;
+	margin: 53px 1px 1px 651px;
     position: absolute;
+	text-align: left;
+    
 	
-}.crono3 {
+}
+.crono3 {
 	font-size: 24px;
-	line-height: 24px;
+	line-height: 1.6;
 	color: #f3f3f3;
 	font-family: HouschkaPro-Bold;
-	margin: 52px 1px 1px 798px;
+	margin: 53px 1px 1px 767px;
     position: absolute;
+	text-align: center;
 	
 }
 .days {
 	width: 70px;
 	height: 70px;
-	border-radius: 35px;
+	border-radius: 50px;
 	background-color: #b9d6ef;
-	font-size: 24px;
+	font-size: 26px;
 	line-height: 70px;
 	color: #266b97;
 	font-family: HouschkaPro-Medium;
 	font-weight: 500;
-	text-align:center;
+	text-align: center;
+	margin-left: 1px;
 }
 .hours {
 	width: 70px;
 	height: 70px;
-	border-radius: 35px;
+	border-radius: 50px;
 	background-color: #b9d6ef;
 	font-size: 24px;
 	line-height: 70px;
@@ -156,11 +176,12 @@ input {
 	font-family: HouschkaPro-Medium;
 	font-weight: 500;
 	text-align:center;
+	margin-left: 8px;
 }
 .mins {
 	width: 70px;
 	height: 70px;
-	border-radius: 35px;
+	border-radius: 50px;
 	background-color: #b9d6ef;
 	font-size: 24px;
 	line-height: 70px;
@@ -168,6 +189,7 @@ input {
 	font-family: HouschkaPro-Medium;
 	font-weight: 500;
 	text-align:center;
+	margin-left: 1px;
 }
 
 .clouds {
@@ -176,12 +198,12 @@ input {
 	
 }
 .iceberg {
-	margin: -203px 0% 0% 21%;
+	margin: -477px 0% 0% 202px;
     position: absolute;
 	/* border:4px solid #ddecfa; */
 }
 .boat {
-	margin: -30em 0em 0em 10em;
+	margin: -477px 0% 0% 202px;
     position: absolute;
 	
 	
